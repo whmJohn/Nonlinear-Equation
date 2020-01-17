@@ -11,7 +11,7 @@ double y_axis = 0;
 double z_axis = 10000;
 double x_axis = 0;
 
-//产生符合正态分布的随机数()
+//产生符合正态分布的随机数
 double gaussrand(double u, double z) {
     static float V1, V2, S;
     static int phase = 0;
